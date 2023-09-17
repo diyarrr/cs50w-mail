@@ -1,0 +1,79 @@
+textarea {
+    min-height: 400px;
+}
+
+
+#emails-view {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.email-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute content evenly in a row */
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .email-box p {
+    margin: 0;
+  }
+  
+  .sender {
+    flex: 1; /* Grow to fill available space */
+  }
+  
+  .subject {
+    flex: 2; /* Grow to fill twice the space of sender */
+  }
+  
+  .timestamp {
+    flex: 1; /* Grow to fill available space */
+  }
+
+
+/* Style for the Archive button */
+.archive-button {
+  background-color: #337ab7; /* Change to your desired background color */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 5px 10px;
+  margin-right: 10px; /* Adjust spacing */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+}
+
+/* Style for the Unarchive button */
+.unarchive-button {
+  background-color: #C63D2F; /* Change to your desired background color */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+}
+
+/* Hover effect for buttons */
+.archive-button:hover,
+.unarchive-button:hover {
+  opacity: 0.8; /* Reduce opacity on hover */
+}
+
+
+.reply-button {
+  background-color: #ADC4CE;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
